@@ -1,0 +1,23 @@
+{
+  "name": "edi-checker",
+  "version": "0.0.1",
+  "description": "WebApp zur zur Validierung von EDI-Nachrichten",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Grewe",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-xml-bodyparser": "^0.3.0",
+    "fs": "0.0.1-security",
+    "mssql": "^4.3.0",
+    "node-sspi": "^0.2.4",
+    "winston": "^3.1.0",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.27"
+  }
+}
